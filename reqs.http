@@ -1,0 +1,7 @@
+GET http://localhost:8080/files
+###
+GET http://localhost:8080/files/unknown
+###
+GET http://localhost:8080/files/fs_content.txt
+###
+GET http://localhost:8080/actuator/health
